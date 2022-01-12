@@ -1,0 +1,54 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2022-01-12T06:58:52.384Z",
+        "line": 2,
+        "name": "Validate Facebook login structure",
+        "description": "",
+        "id": "feature-to-validate-facebook-login-s-page-structure;validate-facebook-login-structure",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2738150700,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "Main page is open",
+            "match": {
+              "location": "steps_definition.FacebookLoginStructure.openMainPage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 311863900,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "Validate page title is \"Facebook\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Facebook\"",
+                  "offset": 23
+                }
+              ],
+              "location": "steps_definition.FacebookLoginStructure.getPageTitle(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Feature to validate Facebook login\u0027s page structure",
+    "description": "",
+    "id": "feature-to-validate-facebook-login-s-page-structure",
+    "keyword": "Feature",
+    "uri": "file:src/main/java/project/Features/facebook_login.feature",
+    "tags": []
+  }
+]
