@@ -7,7 +7,7 @@ import org.junit.runner.RunWith;
 @RunWith(Cucumber.class)
 @CucumberOptions(
         features = "src/main/java/project/Features/facebook_login.feature",
-        glue = { "steps_definition" },
+        glue = {"steps_definition"},
         plugin = {
                 "pretty", "html:reports/html/report.html",
                 "json:reports/json/reports.json"
